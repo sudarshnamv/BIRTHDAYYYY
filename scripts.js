@@ -6,7 +6,7 @@ const playBirthdaySong = () => {
 
 // Function to update countdown timer with animation
 const updateCountdown = () => {
-    const countDate = new Date('July 13, 2024 00:00:00 GMT+0530').getTime();
+    const countDate = new Date('July 13, 2025 00:00:00 GMT+0530').getTime();
     const now = new Date().getTime();
     const gap = countDate - now;
 
